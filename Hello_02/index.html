@@ -81,8 +81,6 @@
          보여지는 크기는 변화되지만,
          자신은 100%의 크기를 그대로 유지한다.
         */
-        /* display: inline-block; */
-
         width: 30%;
       }
       .article3,
@@ -95,6 +93,24 @@
       .article4 {
         border: 6px solid blue;
       }
+
+      div.main {
+        display: flex;
+      }
+      nav {
+        background-color: black;
+        color: white;
+      }
+      /* 
+      nav tag 가 감싸고 있는 ul tag를 selector
+      */
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav li {
+        padding: 5px;
+      }
     </style>
   </head>
   <body>
@@ -102,12 +118,25 @@
       <h1>나의 홈페이지</h1>
       <p>내가 처음으로 만든 홈페이지 2024</p>
     </header>
+    <nav>
+      <ul>
+        <li>홈</li>
+        <li>공지사항</li>
+        <li>자유게시판</li>
+        <li>로그인</li>
+        <li>회원가입</li>
+      </ul>
+    </nav>
     <section>
-      <article class="article1">본문1</article>
-      <article class="article2">본문2</article>
-      <article class="article3">본문3</article>
-      <article class="article4">본문4</article>
-      <article class="article5">본문5</article>
+      <div class="main">
+        <article class="article1">본문 1</article>
+        <article class="article2">본문 2</article>
+      </div>
+      <div class="main">
+        <article class="article3">본문 3</article>
+        <article class="article4">본문 4</article>
+        <article class="article5">본문 5</article>
+      </div>
     </section>
   </body>
 </html>
