@@ -8,7 +8,7 @@ const importHtml = (tag, file) => {
   xhr.onreadystatechange = () => {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       // 브라우저가 정상적으로 파일을 받았으면
-      tag.innerHTML = xhr.responseText();
+      tag.innerHTML = xhr.responseText;
     }
   };
   xhr.send();
