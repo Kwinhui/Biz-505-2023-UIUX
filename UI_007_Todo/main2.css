@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+}
+header {
+  text-align: center;
+  background-color: rgb(123, 42, 216);
+  color: white;
+  padding: 15px;
+  text-shadow: 2px 2px 2px black;
+}
+nav {
+  background-color: black;
+  color: yellow;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+nav li:nth-of-type(4) {
+  margin: 0 auto;
+}
+
+section.login {
+  margin-top: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 70%;
+  white-space: nowrap;
+}
+section h1,
+section article {
+  margin: 10px auto;
+}
+section article {
+  border: 1px solid red;
+}
+section.login h1 {
+  text-align: center;
+}
+section.login div {
+  display: flex;
+  padding: 5px;
+}
+label,
+input {
+  padding: 8px;
+}
+label {
+  width: 70%;
+  text-align: right;
+  padding-right: 10px;
+  color: blue;
+}
+input {
+  width: 60%;
+  /* border-radius: 10px; */
+  border: 1px solid #ddd;
+}
+/* section.login article {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+} */
+
+section.login button {
+  background-color: #7979eb;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+section.login button:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid blue;
+}
