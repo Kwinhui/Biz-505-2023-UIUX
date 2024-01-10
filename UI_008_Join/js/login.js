@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const input_username = document.querySelector("input[name='username']");
   const input_password = document.querySelector("#password");
   //   btn_login = null이 아닐경우에만
-  btn_login.addEventListener("click", () => {
+  btn_login?.addEventListener("click", () => {
     // 로그인을 시도(button 이 클릭된)하는 시점에
     // input box 에 입력된 값을 catch
     // login button클릭이 된 다음에 데이터를 담아준다
