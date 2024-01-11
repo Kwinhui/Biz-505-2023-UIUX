@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         image_view_box.querySelector("IMG").remove();
       }, 1000);
       // 클릭된 image 의 소스
-      const img_src = target.src;
+      // const img_src = target.src;
       // console.log("SRC", img_src);
       // image_view.src = img_src;
     }

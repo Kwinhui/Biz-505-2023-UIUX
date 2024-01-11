@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const spanClose = document.createElement("SPAN");
     const liTag = document.createElement("LI");
 
-    // 위에서 만들어진 sapn tag 에 각각 class 를 부착하라
+    // 위에서 만들어진 span tag 에 각각 class 를 부착하라
     // <span class="complete"></sapn>
     spanComplete.classList.add("complete");
     spanTodo.classList.add("todo");
